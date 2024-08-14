@@ -1,0 +1,19 @@
+{
+    "name": "juanpg/themoviedb",
+    "description": "Servicio Rest que pemite consumir datos de themoviedb",
+    "autoload": {
+        "psr-4": {
+            "Juanpg\\Themoviedb\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan Pereira Garcia",
+            "email": "juanpereiragarcia@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
